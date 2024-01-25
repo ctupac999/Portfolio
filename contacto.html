@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/contacto.css">
+    <link rel="stylesheet" href="assets/index.css">
+    <title>Portfolio CS</title>
+</head>
+
+<body>
+    <div id="hero"></div>
+    <header>
+        <div>
+            <h3 class="c">C</h3>
+            <h3 class="s">S</h3>
+            <h3 class="cs"><a href="index.html">CS</a></h3>
+            <h3 class="cristian">Cristian</h3>
+            <h3 class="salas">Salas</h3>
+        </div>
+        <nav>
+            <ol>
+                <li><a href="sobreMi.html">Sobre mí</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="trabajos.html">Trabajos</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form id="miFormulario">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <div id="botones">
+                    <button type="button" onclick="almacenarFormulario()">Enviar</button><br><br>
+                    <!-- Botón para borrar el historial -->
+                    <button type="button" onclick="borrarHistorial()">Borrar Historial</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="historial"></div>
+
+    </main>
+    <footer>
+        <nav>
+            <ol>
+                <li><a href="aboutMe.html">GitHub</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="trabajos.html">Trabajos</a></li>
+            </ol>
+        </nav>
+    </footer>
+    <script src="./src/contacto.js"></script>
+</body>
+
+</html>

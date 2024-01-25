@@ -1,0 +1,47 @@
+main {
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#miFormulario,
+#historial {
+    border-radius: 8px;
+    padding: 50px 100px 50px 100px;
+    width: 53vw;
+    height: 50vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+#historial {
+    margin-top: -15vh;
+    justify-content: initial;
+}
+
+
+button {
+    width: 100px;
+    height: 30px;
+    color: #F56C00;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
+    border: none;
+    border-radius: 8px;
+}
+
+#botones {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
